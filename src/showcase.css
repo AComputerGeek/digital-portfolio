@@ -1,0 +1,180 @@
+html,
+body 
+{
+  font-family: "Roboto", sans-serif;
+}
+
+input[type="checkbox"] 
+{
+  width: 12px;
+  margin-right: 5px;
+}
+
+.pageBody 
+{
+  color: white;
+  background-color: #22212c;
+  background-image: url("https://bit.ly/3o6lZWh"),
+    radial-gradient(
+      circle,
+      rgba(149, 128, 255, 0.4) 0%,
+      rgba(34, 33, 44, 0.4) 100%
+    );
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+main 
+{
+  padding: 4rem 0;
+  min-height: 100vh;
+}
+
+main section 
+{
+  width: 100%;
+}
+
+main section .lx-card 
+{
+  width: 100%;
+  padding: 1.5rem;
+  background-color: rgba(34, 33, 44, 0.9);
+}
+
+main section .title 
+{
+  width: 100%;
+  text-align: left;
+  font-size: 1.5rem;
+}
+
+main section .title svg 
+{
+  color: #04d361;
+}
+
+main section .text 
+{
+  width: 100%;
+  padding: 1rem;
+  text-align: left;
+  font-size: 0.88rem;
+  border-radius: 0.328rem;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+main section .text svg 
+{
+  color: #ff5555;
+}
+
+main section .text ol 
+{
+  padding-inline-start: 2rem;
+  display: grid;
+  gap: 0.5rem;
+}
+
+main section .text p:first-child
+{
+  margin-top: 0;
+}
+
+main section .text p:last-child 
+{
+  margin-bottom: 0;
+}
+
+main section .pic 
+{
+  width: 100%;
+  max-width: 15rem;
+  max-height: 15rem;
+  border-radius: 0.328rem;
+  overflow: hidden;
+}
+
+main section .pic img 
+{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+main section .infos 
+{
+  width: 100%;
+  margin: 0.5rem 0 0 0;
+  display: grid;
+  grid-auto-flow: row;
+  gap: 0.5rem;
+  text-align: left;
+  font-size: 0.875rem;
+}
+
+main section .infos svg 
+{
+  color: #04d361;
+}
+
+main section .mini-cards 
+{
+  width: 100%;
+  display: grid;
+  grid-auto-flow: column;
+  gap: 0.5rem;
+}
+
+main section .mini-cards a,
+main section .mini-cards span 
+{
+  width: 100%;
+  height: 100%;
+  padding: 1rem 0.5rem;
+  border-radius: 0.328rem;
+  font-size: 1rem;
+  background-color: #2a2c37;
+  transition: background-color 0.4s ease-in-out;
+}
+
+main section .mini-cards a svg,
+main section .mini-cards span svg 
+{
+  color: #9580ff;
+  transition: color 0.3s ease-in-out;
+}
+
+main section .mini-cards a:focus,
+main section .mini-cards a:hover,
+main section .mini-cards span:focus,
+main section .mini-cards span:hover 
+{
+  background-color: #04d361;
+}
+
+main section .mini-cards a:focus svg,
+main section .mini-cards a:hover svg,
+main section .mini-cards span:focus svg,
+main section .mini-cards span:hover svg 
+{
+  color: #22212c;
+}
+
+@media screen and (max-width: 65rem) 
+{
+  main section .mini-cards 
+  {
+    grid-template-rows: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 50rem) 
+{
+  main section .mini-cards 
+  {
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+}

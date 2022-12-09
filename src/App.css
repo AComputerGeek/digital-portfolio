@@ -1,0 +1,134 @@
+:root 
+{
+  font-size: 16px;
+  line-height: 1.5;
+  --primary-blue: #233975;
+}
+
+h1 
+{
+  font-size: 2.25rem;
+  font-weight: 700;
+}
+
+h2 
+{
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+h3 
+{
+  font-size: 1.35rem;
+  text-align: center;
+}
+
+.small 
+{
+  font-size: 80%;
+  text-align: center;
+}
+
+.split-screen 
+{
+  display: flex;
+  flex-direction: column;
+}
+
+.left 
+{
+  height: 200px;
+  background: black;
+}
+
+.left,
+.right 
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left .copy 
+{
+  color: white;
+  text-align: center;
+  -webkit-font-smoothing: antialiased;
+}
+
+.left p 
+{
+  font-weight: 400;
+}
+
+.right .copy 
+{
+  color: black;
+  text-align: center;
+}
+
+.right .copy p 
+{
+  margin: 1.5em 0;
+  font-size: 0.875rem;
+}
+
+.right form 
+{
+  width: 328px;
+}
+
+form input[type="text"] 
+{
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 8px;
+  border: 1px solid #c4c4c4;
+  padding: 1em;
+  margin-bottom: 1.25rem;
+  font-size: 0.875rem;
+}
+
+form input[type="checkbox"] 
+{
+  margin-right: 10px;
+}
+
+.signup-btn 
+{
+  margin: 5px auto;
+  margin-bottom: 20px;
+  display: flex;
+}
+
+@media screen and (min-width: 900px) 
+{
+  .split-screen 
+  {
+    flex-direction: row;
+    height: 100vh;
+  }
+
+  .left,
+  .right 
+  {
+    display: flex;
+    width: 50%;
+    height: auto;
+  }
+}
+
+.checkboxes 
+{
+  column-count: 2;
+  column-width: 50%;
+  column-rule: none;
+  width: 100%;
+}
+
+.myLabel 
+{
+  display: inline-block;
+  width: 213px;
+}
