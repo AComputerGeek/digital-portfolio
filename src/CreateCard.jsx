@@ -1,5 +1,5 @@
-// @author: Amir Armion
-// @version: V.01
+// Amir Armion (A01165171)
+// Lab 5
 
 import { useNavigate } from "react-location";
 import { useStore } from "./store.js";

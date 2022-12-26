@@ -1,5 +1,5 @@
-// @author: Amir Armion
-// @version: V.01
+// Amir Armion (A01165171)
+// Lab 5
 
 import create from "zustand";
 import produce from "immer";
