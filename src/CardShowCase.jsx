@@ -1,5 +1,5 @@
-// Amir Armion (A01165171)
-// Lab 5
+// @author: Amir Armion
+// @version: V.01
 
 import "./showcase.css";
 import { useStore } from "./store.js";
